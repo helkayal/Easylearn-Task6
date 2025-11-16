@@ -16,12 +16,12 @@ class EasylearnScreen extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.black,
       elevation: 0,
-      leading: const BackButton(color: Colors.white),
+      foregroundColor: Colors.white,
       leadingWidth: 25,
       centerTitle: false,
       title: Row(
         children: [
-          Image.asset("assets/images/easylearn_logo.png", height: 40),
+          Image.asset("assets/images/easylearn_logo.png", height: 45),
           const SizedBox(width: 10),
           const Expanded(
             child: Text(
